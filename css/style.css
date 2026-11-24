@@ -1,0 +1,25 @@
+html,body{margin:0;padding:0;background:#070B12;color:#F4F5F7}
+html.lenis,html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+.lenis.lenis-stopped{overflow:hidden}
+*{box-sizing:border-box}
+::selection{background:#A9AFB8;color:#070B12}
+a{color:inherit;text-decoration:none}
+a:hover{color:#FFFFFF}
+button{font-family:inherit}
+[hidden]{display:none!important}
+.only-desktop,.only-mobile{display:contents}
+@media(max-width:819px){.only-desktop{display:none!important}}
+@media(min-width:820px){.only-mobile{display:none!important}}
+.credit{position:absolute;left:6px;bottom:6px;max-width:calc(100% - 12px);font:400 10px/1.3 'Manrope',sans-serif;color:rgba(255,255,255,.7);opacity:0;transition:opacity .4s;z-index:2;pointer-events:auto;text-shadow:0 1px 2px rgba(0,0,0,.6)}
+div:hover>.credit{opacity:1}
+.credit a:hover{text-decoration:underline;color:#fff}
+@media(hover:none){.credit{opacity:.55}}
+.hv0:hover{opacity:1!important}
+.hv1:hover{gap:20px!important}
+.hv2:hover{gap:22px!important}
+.hv3:hover{border-color:rgba(244,245,247,.8)!important}
+.hv4:hover{color:#FFFFFF!important}
+.hv5:hover{border-color:#F4F5F7!important}
+.hv6:hover{background:#F4F5F7!important;color:#070B12!important;gap:22px!important}
+.hv7:hover{background:#F4F5F7!important;color:#070B12!important}
